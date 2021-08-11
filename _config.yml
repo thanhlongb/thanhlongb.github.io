@@ -25,21 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-plainwhite:
-  name: Bui Thanh Long
-  tagline: RMIT University's Student
-  date_format: "%b %-d, %Y"
-  portfolio_image:  "assets/myface.jfif" # the path from the base directory of the site to the image to display (no / at the start)
-
-  social_links:
-    github: thanhlongb
-    linkedIn: in/thanhlongb # format: locale/username
-# github_username:  thanhlongb
 
 # Build settings
 markdown: kramdown
-remote_theme: samarsault/plainwhite-jekyll
-# theme: minima
+# remote_theme: samarsault/plainwhite-jekyll
+theme: minima
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
