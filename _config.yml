@@ -16,7 +16,7 @@
 domain: thanhlongb.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://thanhlongb.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /      # place folder name if the site is served in a subfolder   
-title: Your awesome title
+title: Bùi Thành Long (thanhlongb)
 email: thanhlongb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -24,13 +24,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+plainwhite:
+  name: Bui Thanh Long
+  tagline: RMIT University's Student
+  date_format: "%b %-d, %Y"
+  portfolio_image:  "assets/myface.jfif" # the path from the base directory of the site to the image to display (no / at the start)
+
+  social_links:
+    github: thanhlongb
+    linkedIn: in/thanhlongb # format: locale/username
+# github_username:  thanhlongb
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: samarsault/plainwhite-jekyll
+# theme: minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
